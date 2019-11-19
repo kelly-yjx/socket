@@ -5,4 +5,13 @@
     img: require("@/assets/logo.png")
 
 ```
-## 2、
+## 2、webAPP首屏加载问题
+![](./微信图片_20191119095110.png)
+
+## 3、定时器立即执行
+```js
+    function setTime(){}
+    //让函数先执行一次
+    setTime()
+    let timer = setInterval(setTime,1000)
+```
